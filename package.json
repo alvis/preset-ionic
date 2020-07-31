@@ -1,0 +1,36 @@
+{
+	"name": "@alvis/preset-ionic",
+	"version": "1.0.0",
+	"description": "A presetter preset for ionic projects",
+	"keywords": [],
+	"homepage": "https://github.com/alvis/preset-ionic#readme",
+	"bugs": {
+		"url": "https://github.com/alvis/preset-ionic/issues"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "Alvis HT Tang",
+		"email": "alvis@hilbert.space"
+	},
+	"main": "lib/index.js",
+	"scripts": {
+		"prepublish": "presetter bootstrap",
+		"build": "run build",
+		"coverage": "run coverage",
+		"lint": "run lint",
+		"prepare": "run prepare",
+		"test": "run test"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/alvis/preset-ionic.git"
+	},
+	"peerDependencies": {
+	},
+	"devDependencies": {
+		"presetter": "^1.x",
+		"presetter-preset": "^1.x"
+	},
+	"dependencies": {
+	}
+}
