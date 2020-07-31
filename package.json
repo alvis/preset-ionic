@@ -42,6 +42,7 @@
 		"eslint-plugin-no-secrets": "^0.6",
 		"eslint-plugin-react": "^7.x",
 		"eslint-plugin-sonarjs": "^0.5",
+		"leasot": "^10.x",
 		"npm-run-all": "^4.x",
 		"prettier": "^2.x",
 		"shx": "^0.3",
