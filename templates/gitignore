@@ -1,0 +1,9 @@
+/coverage
+/node_modules
+/build
+/src/react-app-env.d.ts
+/.eslintrc.json
+/.jestrc.json
+/.gitignore
+/.prettierrc.json
+/tsconfig.json
