@@ -50,9 +50,14 @@
 		"typescript": "^3.9.x"
 	},
 	"devDependencies": {
+		"@types/fs-extra": "^9.x",
+		"@types/js-yaml": "^3.x",
 		"presetter": "^1.x",
 		"presetter-preset": "^1.x"
 	},
 	"dependencies": {
+		"fs-extra": "^9.x",
+		"js-yaml": "^3.x",
+		"pupa": "^2.x"
 	}
 }
