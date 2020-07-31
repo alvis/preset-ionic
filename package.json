@@ -27,8 +27,10 @@
 	},
 	"peerDependencies": {
 		"@types/node": "^12.x",
+		"conventional-changelog-angular-emoji": "0.2.2",
 		"npm-run-all": "^4.x",
 		"shx": "^0.3",
+		"standard-version": "^7.x",
 		"typescript": "^3.9.x"
 	},
 	"devDependencies": {
