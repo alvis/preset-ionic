@@ -1,0 +1,29 @@
+bail: true
+collectCoverage: false
+collectCoverageFrom:
+  - src/**/*.ts
+  - src/**/*.tsx
+coverageReporters:
+  - text
+  - - lcov
+    - projectRoot: '{root}'
+coverageThreshold:
+  global:
+    branches: 95
+    functions: 95
+    lines: 95
+    statements: 95
+globals:
+  ignoreCoverageForAllDecorators: true
+  ts-jest:
+    babelConfig: true
+    tsConfig:
+      allowJs: true
+preset: ts-jest
+resetModules: false
+testEnvironment: node
+testMatch:
+  - '**/?(*.)+(spec).[jt]s'
+testPathIgnorePatterns:
+  - /node_modules/
+  - <rootDir>/{output}/

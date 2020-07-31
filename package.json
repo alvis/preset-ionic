@@ -26,6 +26,7 @@
 		"url": "git+https://github.com/alvis/preset-ionic.git"
 	},
 	"peerDependencies": {
+		"@types/jest": "^25.x",
 		"@types/node": "^12.x",
 		"conventional-changelog-angular-emoji": "0.2.2",
 		"npm-run-all": "^4.x",
