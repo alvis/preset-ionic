@@ -1,0 +1,52 @@
+compilerOptions:
+  # emittance
+  module: ESNext
+  target: ESNext
+  sourceMap: true
+  noEmit: true
+  noImplicitUseStrict: false
+  preserveConstEnums: true
+  removeComments: true
+
+  # compatibility
+  allowJs: true
+  allowSyntheticDefaultImports: true
+  esModuleInterop: true
+  experimentalDecorators: true
+  emitDecoratorMetadata: true
+  isolatedModules: true
+  jsx: react
+
+  # strict type check
+  strict: true
+  alwaysStrict: true
+  noImplicitAny: false
+  noImplicitThis: false
+  strictBindCallApply: true
+  strictFunctionTypes: true
+  strictNullChecks: true
+  strictPropertyInitialization: true
+  suppressImplicitAnyIndexErrors: true
+
+  # lint
+  allowUnreachableCode: false
+  allowUnusedLabels: false
+  forceConsistentCasingInFileNames: true
+  noImplicitReturns: true
+  noUnusedLocals: false
+  noUnusedParameters: false
+  noFallthroughCasesInSwitch: false
+  skipLibCheck: true
+
+  # module resolution
+  moduleResolution: node
+  resolveJsonModule: true
+  baseUrl: .
+
+  # libraries
+  lib:
+    - ESNext
+    - DOM
+    - DOM.Iterable
+include:
+  - src
